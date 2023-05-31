@@ -11,7 +11,13 @@ function fun1(){
 }
 function fun2(){
     let temp=10000;
-    let vari=document.getElementById("inp2").value;
+    document.getElementById("hh").innerHTML=document.getElementById("inp2").value;
+    document.getElementById("hh").innerHTML="Total Balance :"+(temp-document.getElementById("inp2").value);
+    temp=document.getElementById("hh").innerHTML;
+}
+function fun3(){
+    let temp=10000;
+    let vari=document.getElementById("inp3").value;
     if(document.getElementById("5d").value!=NaN){
         let total=(500*vari)+temp;
         document.getElementById("hh").innerHTML="Total Balance :"+(total);
