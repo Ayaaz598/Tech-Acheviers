@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Main Page</title>
+    <link rel="stylesheet" href="/css/style1.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+
+<body>
+    <div class="cont">
+        <h1><b>Your Dashboard</b></h1>
+        <h2 id="hh">Total Balance : 10000</h2>
+        <a href="login.html"><button>Logout</button></a>
+    </div>
+    <div class="cards" data-aos="fade-up">
+        <div class="card" >
+            <div class="title">
+                <h2>Transactions/</h2>
+                <h2>Payments</h2>
+            </div>
+            <div class="something">
+                <h1></h1>
+                <label for=""><b>Admin ID :</b></label>
+                <input type="text" placeholder="Enter the Admin ID" name="" id="">
+                <h1></h1>
+                <label for=""><b>Rupee / NFT :</b></label>
+                <h1></h1>
+                <label for=""><input type="radio" name="ru" id="">Rupee</label>
+                <label for=""><input type="radio" name="" id="">NFT</label>
+                <h1></h1>
+                <input type="text" placeholder="Enter the ammount or NFT ID" id="inp1">
+                <h1></h1>
+                <h1></h1>
+                <label for=""><b>Upload NFT :</b></label>
+                <a href="">Upload Here</a>
+                <h1></h1>
+                <button onclick="fun1()"><b>Proceed</b></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="title">
+                <h2>Trading</h2>
+                <h2>NFT</h2>
+            </div>
+            <div class="something">
+                <h1></h1>
+                <label for=""><b>Admin ID :</b></label>
+                <input type="text" placeholder="Enter the Admin ID" name="" id="">
+                <h1></h1>
+                <label for=""><b>Rupee / NFT :</b></label>
+                <h1></h1>
+                <label for=""><input type="radio" name="ru" id="">Rupee</label>
+                <label for=""><input type="radio" name="" id="">NFT</label>
+                <h1></h1>
+                <input type="text" placeholder="Enter the ammount or NFT ID">
+                <h1></h1>
+                <h1></h1>
+                <label for=""><b>Upload NFT :</b></label>
+                <a href="">Upload Here</a>
+                <h1></h1>
+                <button><b>Proceed</b></button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="title">
+                <h2>NFT</h2>
+                <h2>Loans</h2>
+            </div>
+            <div class="something">
+                <h1></h1>
+                <label for=""><b>Admin ID :</b></label>
+                <input type="text" placeholder="Enter the Admin ID" name="" id="">
+                <h1></h1>
+                <label for=""><b>Intrest :</b></label>
+                <h1></h1>
+                <label for=""><input type="radio" name="ru" id="5d">5%</label>
+                <label for=""><input type="radio" name="" id="10d">10%</label>
+                <h1></h1>
+                <input type="text" id="inp2" placeholder="Enter the Recovery Months">
+                <h1></h1>
+                <h1></h1>
+                <label for=""><b>Upload NFT :</b></label>
+                <a href="">Upload Here</a>
+                <h1></h1>
+                <button onclick="fun2()"><b>Proceed</b></button>
+            </div>
+        </div>
+    </div>
+
+    <script src="./script.js">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init({
+            offset: 320, // offset (in px) from the original trigger point
+            duration: 700, // values from 0 to 3000, with step 50ms
+          });
+        </script>
+</body>
+
+</html>
